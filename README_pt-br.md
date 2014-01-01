@@ -1,29 +1,30 @@
-# Skeleton - Node.js Version
+# Skeleton - Versão Node.js
 
-##### [Instruções em português](README_pt-br.md)
+Um boilerplate muito simples para novos projetos.
 
-A really simple boilerplate for new projects.
+## Começando
 
-## Getting Started
-
-To start a new project:
+Para iniciar um novo projeto:
 
 ```bash
-git clone git://github.com/vitorbritto/node-skeleton.git projectname
-cd projectname
+git clone git://github.com/vitorbritto/node-skeleton.git nomedoprojeto
+cd nomedoprojeto
 npm i && node skeleton
 ```
 
-**Improving your Workflow**
+*Para quem utiliza Windows, execute o arquivo `init.bat` no seu Command Prompt (cmd). Caso utilize Cygwin ou PowerShell, você pode rodar o arquivo `init.sh` tranquilamente. :)*
 
-You can use Grunt to automate your tasks and improve your Workflow. To do that, simply execute `npm install` and then run one of the tasks bellow:
 
-* `grunt`: watch for changes on files (Live Reload included).
-* `grunt build`: minify, concat and lint files.
+**Melhorando o seu fluxo de trabalho**
 
-**Legacy Support**
+Você pode utilizar o Grunt para automatizar suas tarefas e melhorar o seu fluxo de trabalho. Para isso, basta executar `npm install` e então executar uma das tarefas abaixo:
 
-If you want to support **HTML5** tags, **Media Queries** and **pseudo-selectors** for Old Browsers (IE6-8) with *html5shiv* and *respondjs*, just place the conditional comment before the tag `</head>`.
+* `grunt`: observa as mudanças realizadas nos arquivos (Live Reload incluído).
+* `grunt build`: minifica, concatena e valida arquivos.
+
+**Suporte para navegadores antigos**
+
+Se você deseja dar suporte a tags **HTML5**, **Media Queries** e **pseudo-seletores** para os browsers mais antigos (IE6-8) com *html5shiv* e *respondjs*, basta adicionar o comentário condicional antes da tag `</head>`.
 
 ```html
 <!--[if lt IE 9]>
@@ -33,9 +34,9 @@ If you want to support **HTML5** tags, **Media Queries** and **pseudo-selectors*
 <![endif]-->
 ```
 
-> Modernizr already do that for you. This is just an alternative method.
+> O modernizr já faz isto para você. Este é apenas um método alternativo.
 
-## License
+## Licença
 
 The MIT License
 
@@ -58,3 +59,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
