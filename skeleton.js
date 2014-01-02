@@ -27,11 +27,12 @@ function initClean(){
     sh.rm('-rf', [
         '.git',
         './template',
+        './node_modules',
         'README.md',
         'README_pt-br.md',
         'skeleton.js',
         'package.json',
-        './node_modules'
+        '.travis.yml'
     ]);
 }
 
