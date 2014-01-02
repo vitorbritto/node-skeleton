@@ -1,4 +1,4 @@
-# Skeleton - Versão Node.js
+# Skeleton - Versão Node.js [![Build Status](https://travis-ci.org/vitorbritto/node-skeleton.png)](https://travis-ci.org/vitorbritto/node-skeleton)
 
 Um boilerplate muito simples para novos projetos.
 
@@ -40,7 +40,7 @@ Se você deseja dar suporte a tags **HTML5**, **Media Queries** e **pseudo-selet
 
 The MIT License
 
-Copyright (c) 2013 Vitor Britto.
+Copyright (c) 2014 Vitor Britto.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
