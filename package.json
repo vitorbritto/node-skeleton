@@ -1,23 +1,27 @@
 {
-    "name": "node-skeleton",
-    "version": "0.0.1",
-    "title": "Node Skeleton",
-    "description": "A really simple boilerplate for new projects.",
-    "private": true,
-    "author": {
-        "name": "Vitor Britto",
-        "email": "code@vitorbritto.com.br"
-    },
-    "scripts": {
-        "start": "node skeleton.js",
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/vitorbritto/node-skeleton.git"
-    },
-    "dependencies": {
-        "shelljs": "~0.2.6",
-        "cli-color": "~0.2.2"
-    },
-    "license": "MIT"
+  "name": "node-skeleton",
+  "version": "0.1.0",
+  "description": "A really simple boilerplate for new projects.",
+  "repository": {
+    "type": "git",
+    "url": "https://vitorbritto@github.com/vitorbritto/node-skeleton.git"
+  },
+  "keywords": [
+    "skeleton",
+    "boilerplate",
+    "generator"
+  ],
+  "private": true,
+  "author": {
+    "name": "Vitor Britto",
+    "email": "code@vitorbritto.com.br"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitorbritto/node-skeleton/issues"
+  },
+  "dependencies": {
+    "shelljs": "~0.2.6",
+    "cli-color": "~0.2.2"
+  }
 }
