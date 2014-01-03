@@ -4,9 +4,6 @@
     "title": "Node Skeleton",
     "author": "Vitor Britto <code@vitorbritto.com.br>",
     "description": "A really simple boilerplate for new projects.",
-    "scripts": {
-        "start": "node skeleton.js",
-    },
     "repository": {
         "type": "git",
         "url": "git://github.com/vitorbritto/node-skeleton.git"
