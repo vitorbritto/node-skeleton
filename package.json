@@ -2,9 +2,12 @@
     "name": "node-skeleton",
     "version": "0.0.1",
     "title": "Node Skeleton",
-    "private": true,
-    "author": "Vitor Britto <code@vitorbritto.com.br>",
     "description": "A really simple boilerplate for new projects.",
+    "private": true,
+    "author": {
+        "name": "Vitor Britto",
+        "email": "code@vitorbritto.com.br"
+    },
     "scripts": {
         "start": "node skeleton.js",
     },
@@ -12,12 +15,6 @@
         "type": "git",
         "url": "git://github.com/vitorbritto/node-skeleton.git"
     },
-    "keywords": [
-        "skeleton",
-        "nodejs",
-        "boilerplate",
-        "generator"
-    ],
     "dependencies": {
         "shelljs": "~0.2.6",
         "cli-color": "~0.2.2"
