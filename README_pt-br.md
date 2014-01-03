@@ -7,8 +7,7 @@ Um boilerplate muito simples para novos projetos.
 Para iniciar um novo projeto:
 
 ```bash
-git clone git://github.com/vitorbritto/node-skeleton.git nomedoprojeto
-cd nomedoprojeto
+git clone git://github.com/vitorbritto/node-skeleton.git projectname && cd $_
 npm i && node skeleton
 ```
 
