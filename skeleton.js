@@ -10,19 +10,19 @@ var error    = cli.red.bold,
     success  = cli.green;
 
 // Create Structure
-function initStructure() {
+var initStructure = function() {
     sh.echo(notice('! Initializing Structure...'));
     sh.mkdir('-p', ['./assets', './assets/images', './assets/css', './assets/js', './assets/js/vendor']);
-}
+};
 
 // Copy Files
-function initCopy() {
+var initCopy = function() {
     sh.echo(notice('! Copying files...'));
     sh.cp('-rf', ['./template/*', './template/.*'], './');
-}
+};
 
 // Clean
-function initClean(){
+var initClean = function(){
     sh.echo(notice('! Removing old files...'));
     sh.rm('-rf', [
         '.git',
@@ -34,10 +34,10 @@ function initClean(){
         'package.json',
         '.travis.yml'
     ]);
-}
+};
 
 // Initialize Build
-function initBuild(){
+var initBuild = function(){
 
     sh.echo(notice('! Initialize Building process...'));
 
@@ -46,6 +46,6 @@ function initBuild(){
     initClean();
 
     sh.echo(success('✔ All Done!'));
-}
+};
 
 initBuild();
