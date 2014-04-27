@@ -1,4 +1,4 @@
-# Skeleton - Node.js Version [![Build Status](https://travis-ci.org/vitorbritto/node-skeleton.png)](https://travis-ci.org/vitorbritto/node-skeleton)
+# Skeleton - Node.js Version [![Build Status](https://travis-ci.org/vitorbritto/node-skeleton.svg)](https://travis-ci.org/vitorbritto/node-skeleton)
 
 ##### [Instruções em português](README_pt-br.md)
 

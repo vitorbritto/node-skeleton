@@ -1,4 +1,4 @@
-# Skeleton - Versão Node.js [![Build Status](https://travis-ci.org/vitorbritto/node-skeleton.png)](https://travis-ci.org/vitorbritto/node-skeleton)
+# Skeleton - Versão Node.js [![Build Status](https://travis-ci.org/vitorbritto/node-skeleton.svg)](https://travis-ci.org/vitorbritto/node-skeleton)
 
 Um boilerplate muito simples para novos projetos.
 
